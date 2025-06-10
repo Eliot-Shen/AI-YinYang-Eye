@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.YinYangEye.ui.home.HomeFragment"
+    android:orientation="vertical"
+    android:background="@drawable/background3">
+
+    <TextView
+        android:id="@+id/titleofHome"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/homeTitle"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:layout_marginTop="70dp">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/start_service"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/startService"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center">
+
+    </Button>
+
+    <Button
+        android:id="@+id/stop_service"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/stopService"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btn_view_history"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/history"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center">
+
+    </Button>
+
+    <TextView
+        android:id="@+id/howtoUse"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="@string/instruction"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textColor="#ffffff">
+
+    </TextView>
+
+</LinearLayout>

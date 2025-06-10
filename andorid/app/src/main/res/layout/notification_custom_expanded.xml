@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/expand_notification_title"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:text="监测到AI伪造风险"
+        android:textSize="18sp"
+        android:textColor="#FF0000" />
+
+    <TextView
+        android:id="@+id/expand_notification_message"
+        android:layout_width="350dp"
+        android:layout_height="25dp"
+        android:text="请注意，可能有 AI 生成的风险。"
+        android:textSize="16sp"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/expand_notification_close_button"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="关闭"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

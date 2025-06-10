@@ -1,0 +1,29 @@
+from .base_options import BaseOptions
+
+
+class FineTuneOptions(BaseOptions):
+    def initialize(self, parser):
+        parser = BaseOptions.initialize(self, parser)
+        parser.add_argument('--earlystop_epoch', type=int, default=3)
+        parser.add_argument('--data_aug', default=True, help='if specified, perform additional data augmentation (photometric, blurring, jpegging)')
+        parser.add_argument('--optim', type=str, default='adam', help='optim to use [sgd, adam]')
+        # parser.add_argument('--new_optim', action='store_true', help='new optimizer instead of loading the optim state')
+        parser.add_argument('--loss_freq', type=int, default=400, help='frequency of showing loss on tensorboard')
+        parser.add_argument('--save_epoch_freq', type=int, default=1, help='frequency of saving checkpoints at the end of epochs')
+        parser.add_argument('--epoch_count', type=int, default=1, help='the starting epoch count, we save the model by <epoch_count>, <epoch_count>+<save_latest_freq>, ...')
+        parser.add_argument('--last_epoch', type=int, default=-1, help='starting epoch count for scheduler intialization')
+        parser.add_argument('--train_split', type=str, default='train', help='train, val, test, etc')
+        parser.add_argument('--val_split', type=str, default='val', help='train, val, test, etc')
+        parser.add_argument('--niter', type=int, default=100, help='total epoches')
+        parser.add_argument('--beta1', type=float, default=0.9, help='momentum term of adam')
+        parser.add_argument('--lr', type=float, default=0.0001, help='initial learning rate for adam')
+        # 以下为添加部分
+        # parser.add_argument('--ckpt', type=str, default='./pretrained_weights/fc_weights.pth')
+
+        parser.add_argument('--GaussianNoise', action='store_true',  help='Gaussian Noise for feature embedding')
+        parser.add_argument('--focalloss', action='store_true',  help='FocalLoss for imbalanced class')
+        parser.add_argument('--isTrain', default=True, help='is train or not')
+        parser.add_argument('--RandomErasing', action='store_true',  help='Gaussian Noise for feature embedding')
+
+        
+        return parser

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_Click_Long_single"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please long Click"
+        android:textSize="15sp"
+        android:textColor="#ff0000"
+        android:layout_margin="40dp">
+
+    </Button>
+
+    <TextView
+        android:id="@+id/tv_Long_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="There is the result"
+        android:textColor="#00ff00"
+        android:textSize="15sp"
+        android:background="#000000"
+        android:gravity="center">
+
+    </TextView>
+
+
+</LinearLayout>
