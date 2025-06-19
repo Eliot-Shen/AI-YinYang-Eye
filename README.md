@@ -1,8 +1,3 @@
-以下是完整的 `README.md` 内容，你可以将其直接复制粘贴到你的 GitHub 项目根目录下的 `README.md` 文件中：
-
----
-
-````markdown
 # AI阴阳眼 - 通用实时AI伪造检测APP  
 **AI Yin-Yang Eyes: Universal Real-time AI Forgery Detection APP**
 
