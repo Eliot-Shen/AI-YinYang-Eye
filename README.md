@@ -14,18 +14,13 @@
 
 安卓部分完全为自主开发。
 
----
 
 ## News
 - **2025.5.26** 项目荣获全国大学生软件创新大赛全国总决赛三等奖 && 华东赛区一等奖
 
-
----
-
 ## 效果图
 ![本地图片](./Server/example_img/teaser.jpg "效果图")
 
----
 ## 🖥️ 服务端部署指南 | Server-Side Deployment
 
 ### 1. 环境配置
@@ -72,7 +67,6 @@ conda create -n myenv
 conda activate myenv
 ```
 
----
 
 ### 3. 服务代码部署与启动
 
@@ -98,7 +92,6 @@ nvidia-smi
 ```
 
 
----
 
 ## 📱 安卓客户端部署 | Android Client Setup
 
@@ -140,13 +133,13 @@ dependencies {
 
 通过 Android Studio 的“Build APK”功能一键打包，即可在 Android 设备中手动安装 APK 文件进行体验。
 
----
+
 
 🌐 服务器地址配置
 首次打开 APP 时，用户需在界面中手动输入后端服务器的 IP 地址 与 端口号（例如：http://192.168.1.100:5000）。
 该信息用于客户端与服务器端的通信连接，并可在设置页面中随时修改。
 
----
+
 
 ## 📖 引用来源 | Citation
 
@@ -156,13 +149,13 @@ dependencies {
 > \[Ojha et al., Wisconsin AI Vision Lab]
 > 🔗 GitHub链接：[https://github.com/WisconsinAIVision/UniversalFakeDetect](https://github.com/WisconsinAIVision/UniversalFakeDetect)
 
----
+
 
 ## 🤝 团队愿景 | Our Vision
 
 我们致力于用技术守护大众安全。**AI阴阳眼**不仅是技术成果，更是一项社会责任。欢迎更多开发者参与共建，推动AI安全走入寻常百姓家！
 
----
+
 
 ## 📬 联系方式 | Contact
 
