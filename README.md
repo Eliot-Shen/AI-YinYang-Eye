@@ -11,7 +11,8 @@
 - 🚨 **实时防护提醒**：提供直观提示，降低受骗风险，提升网络安全意识。
 
 本项目基于 Ojha 等人提出的论文 [*Towards Universal Fake Image Detectors that Generalize Across Generative Models*](https://github.com/WisconsinAIVision/UniversalFakeDetect) 的开源实现进行二次开发与优化。
-安卓APP功能代码完全为自主开发。
+
+安卓部分完全为自主开发。
 
 ---
 
