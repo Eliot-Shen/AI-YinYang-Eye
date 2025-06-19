@@ -95,6 +95,8 @@ nvidia-smi
 
 ## 📱 安卓客户端部署 | Android Client Setup
 
+可以直接使用仓库提供的apk文件，在安卓手机上安装即可。
+
 ### 🧰 开发环境
 
 * IDE：Android Studio
