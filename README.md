@@ -65,10 +65,6 @@ conda activate myenv
 
 ### 3. 服务代码部署与启动
 
-#### 📦 解压代码
-
-将 `AIFace.rar` 解压至任意工作目录。
-
 #### 🔧 安装依赖
 
 ```bash
@@ -90,7 +86,6 @@ python app.py
 nvidia-smi
 ```
 
-日志可在项目目录下的 `logs/` 或配置路径中查看。
 
 ---
 
